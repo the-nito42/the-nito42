@@ -3,6 +3,15 @@ import argparse
 import threading
 from queue import Queue
 
+#User interface header
+print(r""" Welcome to NITO's Port Scanner Tool """)
+print("\n****************************************************************")
+print("\n*                                                              *")
+print("\n*             Welcome To NITO's Port Scanner Tool              *")
+print("\n*                                                              *")
+print("\n****************************************************************")
+
+
 # Define common ports to scan
 COMMON_PORTS = [21, 22, 23, 25, 53, 80, 110, 143, 443, 3306, 3389]
 
